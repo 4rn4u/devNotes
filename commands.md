@@ -1,3 +1,6 @@
+// Base Config
+git config --global user.name "Arnau"
+git config --global user.mail "arnau@.es"
 
 // Initialise repository in current directory
 git init
@@ -62,3 +65,9 @@ git tag
 
 // Move to a determined tag
 git checkout tags/hola 
+
+git branch login
+
+git switch main
+
+git merge main
