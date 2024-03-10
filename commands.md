@@ -29,6 +29,9 @@ git reset
 git diff
 
 
+// Create Alias
+git config --global alias.tree "log --graph --decorate --all --oneline"
+
 // Add gitignore
 --> create file .gitignore
 Add --> **/.DS_Store 
