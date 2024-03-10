@@ -52,4 +52,13 @@ git reflog
 git reset --hard "hash of previous deleted commit"
 
 
+// Set a tag for a commit
 git tag "hola"
+
+
+// Shows all the previous tags
+git tag 
+
+
+// Move to a determined tag
+git checkout tags/hola 
