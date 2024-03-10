@@ -23,6 +23,9 @@ git log
 // Return to previous version
 git checkout 
 git checkout 5195f53d0e62effd336aa9e81c5e03706e7c7531
+
+git checkout HEAD // On current commit becomes head of the project
+
 git reset
 
 
