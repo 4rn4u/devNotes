@@ -25,6 +25,7 @@ git checkout
 git checkout 5195f53d0e62effd336aa9e81c5e03706e7c7531
 
 git checkout HEAD // On current commit becomes head of the project
+git checkout dec2140 // We return to that commit
 
 git reset
 
@@ -39,3 +40,16 @@ git config --global alias.tree "log --graph --decorate --all --oneline"
 // Add gitignore
 --> create file .gitignore
 Add --> **/.DS_Store 
+
+
+// Quit everything after the head
+git reset --hard
+
+// To get every interaction in our git
+git reflog
+
+// Return to previous hard reset
+git reset --hard "hash of previous deleted commit"
+
+
+git tag "hola"
