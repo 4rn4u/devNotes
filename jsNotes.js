@@ -153,4 +153,23 @@ const numsGreaterThanFive = numbers
 console.log(numsGreaterThanFive) // [6, 8, 10, 12, 14]
 
 
-// reduce: Un único valor a partir de un array
+/* reduce: Un único valor a partir de un array
+El método reduce es un poco más complejo que los anteriores. Este método te permite crear un único valor a partir de un Array.
+
+Recibe dos parámetros: una función que se ejecutará por cada elemento y un valor inicial, opcional, que será donde podremos acumular los valores.
+
+El primer parámetro de reduce, que es la función que se ejecutará por cada elemento, recibe tres parámetros:
+
+El acumulador: el valor que se va a ir acumulando en cada iteración
+El elemento actual: el elemento del Array que estamos iterando en ese momento.
+El índice: la posición del elemento actual en el Array.
+Y debe devolver el valor que se va a acumular en cada iteración.
+
+Un caso de uso muy típico de reduce es sumar todos los elementos de un Array: */
+const numbers = [1, 2, 3]
+
+const sum = numbers.reduce((accumulator, currentNumber) => {
+  return accumulator + currentNumber
+}, 0) // <- el 0 es el valor inicial
+
+console.log(sum) // 6
