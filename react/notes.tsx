@@ -1,3 +1,5 @@
-const button = (() => {
-return (<button>hello</button>)
-})
+function button () {
+    return(
+        <button>Hello</button>
+    );
+}
