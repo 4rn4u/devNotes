@@ -1,5 +1,5 @@
 h1 {
-    color: #e20000;
+    color: #8ea9ad;
     font-size: 2em;
     font-weight: bold;
     text-align: center;
@@ -21,6 +21,8 @@ div {
     display: flex;
     justify-content: center;
     background-color: #8ea9ad;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 a {
