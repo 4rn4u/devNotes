@@ -1,0 +1,30 @@
+h1 {
+    color: #e20000;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+div {
+    margin: 0 auto;
+    width: 100;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #8ea9ad;
+}
+
+a {
+    color: bisque;
+    text-decoration: none;
+    margin: 50px;
+}
